@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+
+    <EditText
+        android:id="@+id/url_input_edittext"
+        android:layout_width="fill_parent"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_height="wrap_content" >
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/start_download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:text="开始下载" >
+    </Button>
+
+    <Button
+        android:id="@+id/show_download_list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:text="下载列表"
+        android:visibility="visible" >
+    </Button>
+    </LinearLayout>
+</LinearLayout>
